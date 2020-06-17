@@ -18,10 +18,11 @@ h1 {
   color: hsla(255, 255%, 255%, .8);
   letter-spacing: 12px;
   font-size: 5em;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 p {
-  bottom: 4em;
   position: absolute;
   left: 0;
   width: 100%;
@@ -44,7 +45,158 @@ button {
   padding: 1em;
   border: 1px solid hsla(255, 255%, 255%, .8);
   background: transparent;
-  color: hsla(255, 255%, 255%, .8);
+  color: white;
   font-size: 1.15em;
   letter-spacing: 5px;
+}
+
+@media (max-width: 600px) {
+  canvas {
+    width: 50%; 
+    height: 50%;
+  }
+  h1 {
+    top: 0;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 4px;
+    font-size: 2em;
+  }
+  button {
+    width: 10em;
+    padding: 0.5em;
+    border: 1px solid hsla(255, 255%, 255%, .8);
+    background: transparent;
+    color: white;
+    font-size: 0.75em;
+    letter-spacing: 5px;
+    bottom: 4em;
+  }
+  h5 {
+    margin-top: 50px;
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 0.75px;
+    font-size: 0.7em;
+  }  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  canvas {
+    width: 60%; 
+    height: 60%;
+  }
+  h1 {
+    top: 0;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 4px;
+    font-size: 3em;
+  }
+  button {
+    width: 10em;
+    padding: 0.5em;
+    border: 1px solid hsla(255, 255%, 255%, .8);
+    background: transparent;
+    color: white;
+    font-size: 0.75em;
+    letter-spacing: 5px;
+    bottom: 5em;
+  }
+  h5 {
+    margin-top: 90px;
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 1px;
+    font-size: 1em;
+  } 
+}
+
+
+
+
+
+@media only screen and (min-width: 801px) and (min-width: 931px)  {
+  canvas {
+    width: 70%; 
+    height: 70%;
+  }
+  h1 {
+    top: 0;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 4px;
+    font-size: 3em;
+  }
+  button {
+    width: 10em;
+    padding: 0.5em;
+    border: 1px solid hsla(255, 255%, 255%, .8);
+    background: transparent;
+    color: white;
+    font-size: 0.75em;
+    letter-spacing: 5px;
+    bottom: 5em;
+  }
+  h5 {
+    margin-top: 90px;
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 1px;
+    font-size: 1em;
+  } 
+}
+@media only screen and (min-width: 931px)  {
+  canvas {
+    width: 70%; 
+    height: 70%;
+  }
+  h1 {
+    top: 0;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 4px;
+    font-size: 3em;
+  }
+  button {
+    width: 10em;
+    padding: 0.5em;
+    border: 1px solid hsla(255, 255%, 255%, .8);
+    background: transparent;
+    color: white;
+    font-size: 0.75em;
+    letter-spacing: 5px;
+    bottom: 5em;
+  }
+  h5 {
+    margin-top: 90px;
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: hsla(255, 255%, 255%, .8);
+    letter-spacing: 1px;
+    font-size: 1em;
+  } 
 }
