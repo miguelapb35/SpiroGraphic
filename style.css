@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: hsla(0, 0%, 10%, 1);
+  font-family: 'Poiret One', serif;
+  text-align: center;
+  user-select: none;
+}
+
+h1 {
+  top: 0;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 100%;
+  color: hsla(255, 255%, 255%, .8);
+  letter-spacing: 12px;
+  font-size: 5em;
+}
+
+p {
+  bottom: 4em;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h5 {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: hsla(255, 255%, 255%, .8);
+  letter-spacing: 3px;
+  font-size: 1.15em;
+}
+
+button {
+  width: 10em;
+  padding: 1em;
+  border: 1px solid hsla(255, 255%, 255%, .8);
+  background: transparent;
+  color: hsla(255, 255%, 255%, .8);
+  font-size: 1.15em;
+  letter-spacing: 5px;
+}
